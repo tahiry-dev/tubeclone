@@ -10,26 +10,42 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: white;
+    position:relative;
+   
 }
 
 .logo {
-    position: relative;
-    right: 20px;
+    position: absolute;
+    left:60px;
 }
 
 .collapse-menu {
-    position: relative;
-    left: 20px;
+    position: absolute;
+    left:20px;
+}
+.myInput{
+    position: absolute;
+    left:150px;
 }
 
 .search-icon {
-    position: relative;
-    right: 5px;
+    position: absolute;
+    right:220px;
+    
+}
+.upload{
+    position:absolute;
+    right:140px;
 }
 
 .sign {
-    position: relative;
-    right: 20px;
+    position: absolute;
+    right:50px;
+    background-color: blue;
+    color: white;
+    border: solid 1px blue;
+    border-radius: 2px;
+    
 }
 
 .mini-banner {
@@ -40,6 +56,7 @@ body {
     color: white;
     margin: 0px;
     width: 100%;
+    
 }
 
 .far fa-user {
