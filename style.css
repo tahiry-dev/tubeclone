@@ -3,20 +3,33 @@ body {
     border: 2px solid #999999;
 }
 
-
-/*.flex-container {
+.flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
 }
-*/
+
+.logo {
+    position: relative;
+    right: 20px;
+}
+
+.collapse-menu {
+    position: relative;
+    left: 20px;
+}
+
+.search-icon {
+    position: relative;
+    right: 5px;
+}
 
 .sign {
-    display: block;
-    float: left;
-    margin-left: 180px;
-    padding-left: 180px;
+    position: relative;
+    right: 20px;
 }
 
 form {
