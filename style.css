@@ -6,9 +6,26 @@ body{
 .flex-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 10px;
+    padding-bottom:10px;    
+    background-color: white;
 }
 .logo{
-    align-content: center;
+    position: relative;
+    right: 20px;
+
+}
+.collapse-menu{
+    position: relative;
+    left: 20px;
+}
+
+.search-icon{
+    position: relative;
+    right:5px;
+}
+.sign{
+    position: relative;
+    right:20px;
 }
