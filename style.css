@@ -32,11 +32,25 @@ body {
     right: 20px;
 }
 
-form {
-    display: inline-block;
+.mini-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #167AC6;
+    color: white;
+    margin: 0px;
+    width: 100%;
 }
 
-input {
-    padding-left: 20px;
-    width: auto;
+.far fa-user {
+    align-items: flex-start;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 10%;
+}
+
+h4 {
+    position: relative;
+    right: 400px;
+    width: 20%;
 }
