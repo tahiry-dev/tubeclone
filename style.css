@@ -2,7 +2,13 @@ body{
     background-color: #f8f8f8;
     border:2px solid #999999; 
 }
+
 .flex-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.logo{
+    align-content: center;
 }
