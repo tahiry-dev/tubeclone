@@ -10,42 +10,41 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: white;
-    position:relative;
-   
+    position: relative;
 }
 
 .logo {
     position: absolute;
-    left:60px;
+    left: 60px;
 }
 
 .collapse-menu {
     position: absolute;
-    left:20px;
+    left: 20px;
 }
-.myInput{
+
+.myInput {
     position: absolute;
-    left:150px;
+    left: 150px;
 }
 
 .search-icon {
     position: absolute;
-    right:220px;
-    
+    right: 220px;
 }
-.upload{
-    position:absolute;
-    right:140px;
+
+.upload {
+    position: absolute;
+    right: 140px;
 }
 
 .sign {
     position: absolute;
-    right:50px;
-    background-color: blue;
+    right: 50px;
+    background-color: #167AC6;
     color: white;
-    border: solid 1px blue;
+    border: solid 1px #167AC6;
     border-radius: 2px;
-    
 }
 
 .mini-banner {
@@ -54,9 +53,9 @@ body {
     justify-content: space-between;
     background-color: #167AC6;
     color: white;
-    margin: 0px;
+    margin-top: 20px;
+    height: 40px;
     width: 100%;
-    
 }
 
 .far fa-user {
@@ -70,4 +69,18 @@ h4 {
     position: relative;
     right: 400px;
     width: 20%;
+}
+
+.language {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    border: 1px solid #167AC6;
+    padding: 20px;
+    justify-content: center;
+}
+
+.learn {
+    position: absolute;
+    right: 10px;
 }
