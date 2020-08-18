@@ -3,11 +3,27 @@ body {
     border: 2px solid #999999;
 }
 
-.flex-container {
+
+/*.flex-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+*/
+
+.sign {
+    display: block;
+    float: left;
+    margin-left: 180px;
+    padding-left: 180px;
 }
 
-.flex-container>nav {
-    background-color: #fff;
+form {
+    display: inline-block;
+}
+
+input {
+    padding-left: 20px;
+    width: auto;
 }
