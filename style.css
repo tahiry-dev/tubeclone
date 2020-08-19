@@ -1,86 +1,81 @@
-body {
-    background-color: #f8f8f8;
-    border: 2px solid #999999;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: white;
-    position: relative;
-}
-
-.logo {
-    position: absolute;
-    left: 60px;
-}
-
-.collapse-menu {
-    position: absolute;
-    left: 20px;
-}
-
-.myInput {
-    position: absolute;
-    left: 150px;
-}
-
-.search-icon {
-    position: absolute;
-    right: 220px;
-}
-
-.upload {
-    position: absolute;
-    right: 140px;
-}
-
-.sign {
-    position: absolute;
-    right: 50px;
-    background-color: #167AC6;
-    color: white;
-    border: solid 1px #167AC6;
-    border-radius: 2px;
-}
-
-.mini-banner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #167AC6;
-    color: white;
-    margin-top: 20px;
-    height: 40px;
-    width: 100%;
-}
-
-.far fa-user {
-    align-items: flex-start;
-    margin-right: 10px;
-    vertical-align: middle;
-    width: 10%;
-}
-
-h4 {
-    position: relative;
-    right: 400px;
-    width: 20%;
-}
-
-.language {
-    display: flex;
-    flex-flow: row;
-    position: relative;
-    border: 1px solid #167AC6;
-    padding: 20px;
-    justify-content: center;
-}
-
-.learn {
-    position: absolute;
-    right: 10px;
-}
+ .flex-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background-color: white;
+     position: relative;
+ }
+ 
+ .logo {
+     position: absolute;
+     left: 60px;
+ }
+ 
+ .collapse-menu {
+     position: absolute;
+     left: 20px;
+ }
+ 
+ .myInput {
+     position: absolute;
+     left: 150px;
+ }
+ 
+ .search-icon {
+     position: absolute;
+     right: 220px;
+ }
+ 
+ .upload {
+     position: absolute;
+     right: 140px;
+ }
+ 
+ .sign {
+     position: absolute;
+     right: 50px;
+     background-color: blue;
+     color: white;
+     border: solid 1px blue;
+     border-radius: 2px;
+ }
+ 
+ .mini-banner {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     background-color: #167AC6;
+     color: white;
+     margin-top: 30px;
+     height: 50px;
+     position: relative;
+ }
+ 
+ .far fa-user {
+     align-items: flex-start;
+     margin-right: 10px;
+     vertical-align: middle;
+     width: 10%;
+ }
+ 
+ h4 {
+     position: relative;
+     right: 400px;
+     width: 20%;
+ }
+ 
+ .language {
+     display: flex;
+     flex-flow: row;
+     position: relative;
+     border: 1px solid #167AC6;
+     padding: 20px;
+     justify-content: center;
+ }
+ 
+ .learn {
+     position: absolute;
+     right: 10px;
+ }
