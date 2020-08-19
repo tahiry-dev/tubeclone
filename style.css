@@ -87,6 +87,11 @@
  .language {
      position: relative;
      border: 1px solid #167AC6;
+     /*justify-content: space-between;
+     
+     margin-top       : -5px;
+     margin-bottom    : -5px;
+     */
      height: 30px;
      margin-bottom: 20px;
      background-color: #fff;
