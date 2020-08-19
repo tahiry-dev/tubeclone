@@ -2,7 +2,7 @@
      background-color: #f9f9f9;
      font-family: Roboto, Arial, sans-serif;
  }
- 
+  
  .flex-container {
      display: flex;
      flex-direction: row;
@@ -59,12 +59,6 @@
  }
  
  .fa-user {
-     /*
-     display: flex;
-     align-items: flex-start;
-     margin-left: 10px;
-     margin-bottom: -10px;
-     */
      position: absolute;
      bottom: 7px;
      left: 10px;
@@ -83,19 +77,16 @@
      color: white;
      text-decoration: none;
  }
+
+ main {
+    padding: 15px;
+
+    
+}
  
  .language {
-     /*
-     display: flex;
-     flex-flow: row;
-     */
      position: relative;
      border: 1px solid #167AC6;
-     /*justify-content: space-between;
-     
-     margin-top: -5px;
-     margin-bottom: -5px;
-     */
      height: 30px;
      margin-bottom: 20px;
      background-color: #fff;
@@ -192,23 +183,87 @@
      flex-direction: row;
      justify-content: space-between;
      position: relative;
+     padding-bottom:10px;
  }
- 
  
  .button-style {
      height: 15px;
      font-size: 8px;
      border: none;
      color: #808080;
-     background-color: white;
+     background-color: none;
+     
  }
  
  .share-button {
      position: absolute;
      left: 60px;
+     background-color: white;
+ }
+ .more-button {
+    position: absolute;
+    left: 120px;
+    background-color: white;
+}
+.add-button{
+    background-color: white;
+}
+
+ 
+ .fas {
+     background-color: #fff;
  }
  
- .more-button {
-     position: absolute;
-     left: 120px;
+ .activity {
+     background-color: white;
+     padding: 10px;
+     margin-bottom: 15px;
+     margin-top: 10px;
  }
+ 
+
+ .fa-thumbs-up {
+     position: absolute;
+     right: 120px;
+ }
+ 
+ .like {
+     position: absolute;
+     right: 90px;
+ }
+ 
+ .fa-thumbs-down {
+     position: absolute;
+     right: 30px;
+ }
+ 
+ .dislike {
+     position: absolute;
+     right: 10px;
+ }
+
+ /* full description------*/
+ .full_description{
+     display: relative;
+     background-color:white;
+     padding: 20px;
+ }
+
+.full_title{
+    font-weight: 500;
+   
+}
+
+.text_description{
+    font-size: 14px;
+}
+
+.showing{
+    position: absolute;
+    left:230px;
+    text-decoration:none;
+    color: black;
+    font-size:10px;
+    font-weight: 500;
+}
+
