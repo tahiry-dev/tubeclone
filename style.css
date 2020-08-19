@@ -53,17 +53,18 @@
      position: relative;
  }
  
- .far fa-user {
+ .fa-user {
+     display: flex;
      align-items: flex-start;
-     margin-right: 10px;
+     margin-left: 10px;
      vertical-align: middle;
      width: 10%;
  }
  
  h4 {
-     position: relative;
-     right: 400px;
-     width: 20%;
+     position: absolute;
+     left: 50px;
+     top: -5px;
  }
  
  .language {
@@ -72,10 +73,18 @@
      position: relative;
      border: 1px solid #167AC6;
      padding: 20px;
-     justify-content: center;
+     justify-content: space-between;
+     margin-top: -5px;
+     margin-bottom: -5px;
+     height: 50px;
+     ;
  }
  
- .learn {
+ .learn_more {
      position: absolute;
-     right: 10px;
+     right: 30px;
+     bottom: 15px;
+     justify-items: center;
+     color: white;
+     text-decoration: none;
  }
