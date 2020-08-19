@@ -1,81 +1,116 @@
-body {
-    background-color: #f8f8f8;
-    border: 2px solid #999999;
-}
+ body{
+     background-color: #f9f9f9;
+ }
+ .flex-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding-top: 10px;
+     height:30px;
+     background-color: white;
+     position: relative;
+ }
+ 
+ .logo {
+     position: absolute;
+     left: 60px;
+ }
+ 
+ .collapse-menu {
+     position: absolute;
+     left: 20px;
+ }
+ 
+ .myInput {
+     position: absolute;
+     left: 150px;
+ }
+ 
+ .search-icon {
+     position: absolute;
+     right: 220px;
+ }
+ 
+ .upload {
+     position: absolute;
+     right: 140px;
+ }
+ 
+ .sign {
+     position: absolute;
+     right: 50px;
+     background-color: blue;
+     color: white;
+     border: solid 1px blue;
+     border-radius: 2px;
+ }
+ 
+ .mini-banner {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     background-color: #167AC6;
+     color: white;
+     margin-top: 10px;
+     height: 30px;  
+     position: relative;
+ }
+ 
+ .fa-user {
+     /*
+     display: flex;
+     align-items: flex-start;
+     margin-left: 10px;
+     margin-bottom: -10px;
+     */
+     position: absolute;
+     bottom:7px;
+     left:10px;
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: white;
-    position:relative;
-   
-}
+ }
+ 
+ h6 {
+     position: absolute;
+     left: 40px;
+     top: -15px;
+ }
 
-.logo {
+ .learn_more {
     position: absolute;
-    left:60px;
-}
-
-.collapse-menu {
-    position: absolute;
-    left:20px;
-}
-
-.myInput{
-    position: absolute;
-    left:150px;
-}
-
-.search-icon {
-    position: absolute;
-    right:220px;
-    
-}
-.upload{
-    position:absolute;
-    right:140px;
-}
-
-.sign {
-    position: absolute;
-    right:50px;
-    background-color: blue;
+    right: 30px;
+    bottom: 5px;
     color: white;
-    border: solid 1px blue;
-    border-radius: 2px;
-    
+    text-decoration: none;
 }
 
-
-.mini-banner { 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #167AC6;
-    color: white;
-    margin-top: 30px;
-    height:50px;
-    position:relative;
-    
-}
-
-.fa-user {
-  position: absolute;
-  left:10px
-}
-h6{
-    position: absolute;
-    left:35px;
-    top:-5px;
-}
-.learn_more{
-    position: absolute;
-    right:20px;
-    bottom:17px;
-    text-decoration:none;
-    color:white;
-}
-
+ 
+ .language {
+     /*
+     display: flex;
+     flex-flow: row;
+     */
+     position: relative;
+     border: 1px solid #167AC6;
+     /*justify-content: space-between;
+     
+     margin-top: -5px;
+     margin-bottom: -5px;
+     */
+     height: 30px;
+     margin-bottom: 20px;
+     background-color: #fff;
+     
+ }
+ .smaller{
+     font-size:10px;
+ }
+ 
+ .smaller-left{
+     position:absolute;
+     left:10px;
+ }
+ .smaller-right{
+     position: absolute;
+     right: 10px;
+     top:7px;
+ }
