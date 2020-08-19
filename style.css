@@ -132,9 +132,80 @@
      height: 25px;
      background-color: green;
      padding: 10px;
+     position: relative;
  }
  
  .big_t {
+     position: absolute;
+     top:-20px;
      font-size: xx-large;
-     color: red;
+     color:white;
  }
+ .video-title{
+     font-weight: 400;
+ }
+  .description-on-left{
+      position: relative;
+  }
+
+ .grey-title{
+     font-size:10px;
+     color:rgb(51, 51, 51);
+     position: absolute;
+     left:45px;
+     top:-15px;
+ }
+ .subscribe{
+     position: absolute;
+     left:45px;
+     bottom:0px;
+     background-color: red;
+     padding: 4px;
+     border:none;
+     border-radius: 2px;
+ }
+
+ .number_of_subscribers{
+     position: absolute;
+     left:126px;
+     bottom:0px;
+     border: 1px solid rgb(204, 204, 204);
+     color:rgb(115, 115, 115);
+     padding:1.2px;
+     border-radius: 2px;
+     
+ }
+ .views{
+     position: absolute;
+     right:10px;
+     bottom:-9px;
+     border-bottom: 2px solid rgb(22, 122, 198);
+     width: 25%;
+     text-align: right;
+ }
+
+ .social-buttons{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     position: relative;
+ }
+
+ .button-style{
+     height: 15px;
+     font-size: 8px;
+     border: none;
+     color:#808080;
+     background-color: white;
+ }
+ .share-button{
+     position: absolute;
+     left: 60px;
+
+ }
+ .more-button{
+     position: absolute;
+     left: 120px;
+ }
+
+ 
