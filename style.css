@@ -23,6 +23,7 @@ body {
     position: absolute;
     left:20px;
 }
+
 .myInput{
     position: absolute;
     left:150px;
@@ -48,26 +49,33 @@ body {
     
 }
 
-.mini-banner {
+
+.mini-banner { 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #167AC6;
     color: white;
-    margin: 0px;
-    width: 100%;
+    margin-top: 30px;
+    height:50px;
+    position:relative;
     
 }
 
-.far fa-user {
-    align-items: flex-start;
-    margin-right: 10px;
-    vertical-align: middle;
-    width: 10%;
+.fa-user {
+  position: absolute;
+  left:10px
+}
+h6{
+    position: absolute;
+    left:35px;
+    top:-5px;
+}
+.learn_more{
+    position: absolute;
+    right:20px;
+    bottom:17px;
+    text-decoration:none;
+    color:white;
 }
 
-h4 {
-    position: relative;
-    right: 400px;
-    width: 20%;
-}
