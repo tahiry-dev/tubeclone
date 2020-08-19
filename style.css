@@ -3,6 +3,11 @@
      font-family: Roboto, Arial, sans-serif;
  }
  
+ main {
+     padding: 20px;
+     ;
+ }
+ 
  .flex-container {
      display: flex;
      flex-direction: row;
@@ -180,13 +185,13 @@
  
  .views {
      position: absolute;
-     right: -10px;
+     right: 10px;
      bottom: -9px;
      border-bottom: 2px solid rgb(22, 122, 198);
      width: 25%;
      text-align: right;
  }
- /*
+ 
  .social-buttons {
      display: flex;
      flex-direction: row;
@@ -194,13 +199,12 @@
      position: relative;
  }
  
- 
  .button-style {
      height: 15px;
      font-size: 8px;
      border: none;
      color: #808080;
-     background-color: white;
+     background-color: none;
  }
  
  .share-button {
@@ -208,7 +212,35 @@
      left: 60px;
  }
  
+ .fas {
+     background-color: #fff;
+ }
+ 
+ .activity {
+     background-color: white;
+ }
+ 
  .more-button {
      position: absolute;
      left: 120px;
+ }
+ 
+ .fa-thumbs-up {
+     position: absolute;
+     right: 120px;
+ }
+ 
+ .like {
+     position: absolute;
+     right: 90px;
+ }
+ 
+ .fa-thumbs-down {
+     position: absolute;
+     right: 30px;
+ }
+ 
+ .dislike {
+     position: absolute;
+     right: 10px;
  }
