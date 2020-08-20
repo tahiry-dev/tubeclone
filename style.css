@@ -81,6 +81,8 @@
  main {
      padding: 15px;
  }
+    padding: 15px;
+}
  
  .language {
      position: relative;
@@ -269,3 +271,23 @@
  }
  
  .side_bar {}
+
+.full_title{
+    font-weight: 500;
+   
+}
+
+.text_description{
+    font-size: 14px;
+}
+
+.showing{
+    position: absolute;
+    left:230px;
+    text-decoration:none;
+    color: black;
+    font-size:10px;
+    font-weight: 500;
+}
+
+/*-------Aside section-----*/
