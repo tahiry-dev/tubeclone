@@ -2,7 +2,7 @@
      background-color: #f9f9f9;
      font-family: Roboto, Arial, sans-serif;
  }
-  
+ 
  .flex-container {
      display: flex;
      flex-direction: row;
@@ -77,8 +77,10 @@
      color: white;
      text-decoration: none;
  }
-
+ 
  main {
+     padding: 15px;
+ }
     padding: 15px;
 }
  
@@ -186,7 +188,7 @@
      flex-direction: row;
      justify-content: space-between;
      position: relative;
-     padding-bottom:10px;
+     padding-bottom: 10px;
  }
  
  .button-style {
@@ -195,7 +197,6 @@
      border: none;
      color: #808080;
      background-color: none;
-     
  }
  
  .share-button {
@@ -203,15 +204,16 @@
      left: 60px;
      background-color: white;
  }
+ 
  .more-button {
-    position: absolute;
-    left: 120px;
-    background-color: white;
-}
-.add-button{
-    background-color: white;
-}
-
+     position: absolute;
+     left: 120px;
+     background-color: white;
+ }
+ 
+ .add-button {
+     background-color: white;
+ }
  
  .fas {
      background-color: #fff;
@@ -224,7 +226,6 @@
      margin-top: 10px;
  }
  
-
  .fa-thumbs-up {
      position: absolute;
      right: 120px;
@@ -244,13 +245,32 @@
      position: absolute;
      right: 10px;
  }
-
  /* full description------*/
- .full_description{
+ 
+ .full_description {
      display: relative;
-     background-color:white;
+     background-color: white;
      padding: 20px;
  }
+ 
+ .full_title {
+     font-weight: 500;
+ }
+ 
+ .text_description {
+     font-size: 14px;
+ }
+ 
+ .showing {
+     position: absolute;
+     left: 230px;
+     text-decoration: none;
+     color: black;
+     font-size: 10px;
+     font-weight: 500;
+ }
+ 
+ .side_bar {}
 
 .full_title{
     font-weight: 500;
