@@ -86,11 +86,6 @@
  .language {
      position: relative;
      border: 1px solid #167AC6;
-     /*justify-content: space-between;
-     
-     margin-top       : -5px;
-     margin-bottom    : -5px;
-     */
      height: 30px;
      margin-bottom: 20px;
      background-color: #fff;
@@ -113,7 +108,7 @@
  
  .container {
      display: grid;
-     grid-template-columns: 60% 40%;
+     grid-template-columns: 70% 30%;
  }
  /* video section*/
  
@@ -244,7 +239,7 @@
      position: absolute;
      right: 10px;
  }
- /* full description------*/
+ /*-----full description------*/
  
  .full_description {
      display: relative;
@@ -277,46 +272,38 @@
      font-size: 14px;
  }
  /*-------Aside section-----*/
- 
- aside {
-     display: inline-block;
-     width: 40%;
-     height: auto;
-     margin-right: 10px;
-     margin-left: 5px;
-     margin-top: 30px;
- }
- 
- .side_title {
+
+  .side_title {
      display: flex;
      flex-direction: row;
      justify-content: space-between;
-     align-content: center;
-     margin: -5px;
- }
+     display: relative;
+    
+    }
+.upnext{
+    font-weight: 600;
+}
+.fa-toggle-on{
+    position: absolute;
+    right: 20px;
+}
+
+.fa-info-circle{
+    position: absolute;
+    right: 50px;
+    
+}
+
+.autoplay{
+    position: absolute;
+    right: 80px;
+    color: #767676;
+}
+
+/*-----video-list----*/
+.thumbnails{
+    width: 60%;
+}
  
- .thumbnails {
-     width: 40%;
-     float: left;
- }
  
- .video-title {
-     font-weight: 600;
- }
  
- .side_avatar,
- .aside_views {
-     font-size: 10px;
-     color: #767676;
- }
- 
- .right-view {
-     width: 60%;
-     float: right;
- }
- 
- article {
-     padding: 10px: margin: 0;
- }
- 
- .
