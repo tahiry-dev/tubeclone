@@ -1,5 +1,5 @@
+ 
  body {
-<<<<<<< HEAD
     background-color: #f9f9f9;
     font-family: Roboto, Arial, sans-serif; 
     box-sizing: border-box; 
@@ -14,27 +14,6 @@
     height: 40px;
     background-color: white;
     position: relative;
-=======
-     background-color: #f9f9f9;
-     font-family: Roboto, Arial, sans-serif;
-     box-sizing: border-box;
- }
- 
- .flex-container {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     padding-top: 10px;
-     height: 30px;
-     background-color: white;
-     /*position: relative;
-    
-    display: grid;
-    grid-template-columns: 10% 10% 60% 10% 10%;
-    */
- }
- /*
->>>>>>> efcaba07be969047e94804b97609339feeced4e1
 
 }
 .fa-bars{
@@ -42,27 +21,12 @@
    left:10px;
    
 }
-<<<<<<< HEAD
 
 
 .logo {
     width:60px;
     height:15px;
     margin-left:40px;
-=======
-*/
- 
- .logo {
-     /*
-    position: absolute;
-    left: 60px;
-    bottom: 8px;
-    */
-     width: 60px;
-     height: 23px;
- }
- /*
->>>>>>> efcaba07be969047e94804b97609339feeced4e1
 
 }
  
@@ -105,7 +69,6 @@
     margin-right:10px;
 }
 
-<<<<<<< HEAD
 
 
 .mini-banner {
@@ -284,375 +247,202 @@ main {
     margin-top: 10px 
     
    }
-=======
-*/
  
- .mini-banner {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
-     background-color: #167AC6;
-     color: white;
-     margin-top: 10px;
-     height: 30px;
-     position: relative;
- }
- 
- .fa-user {
-     position: absolute;
-     bottom: 7px;
-     left: 10px;
- }
- 
- h6 {
-     position: absolute;
-     left: 40px;
-     top: -15px;
- }
- 
- .learn_more {
-     position: absolute;
-     right: 30px;
-     bottom: 5px;
-     color: white;
-     text-decoration: none;
- }
- 
- main {
-     padding-right: 15px;
- }
- 
- .language {
-     position: relative;
-     border: 1px solid #167AC6;
-     height: 30px;
-     margin-bottom: 20px;
-     background-color: #fff;
- }
- 
- .smaller {
-     font-size: 10px;
- }
- 
- .smaller-left {
-     position: absolute;
-     left: 10px;
- }
- 
- .smaller-right {
-     position: absolute;
-     right: 10px;
-     top: 7px;
- }
- 
- .container {
-     display: grid;
-     grid-template-columns: 70% 30%;
- }
- /* video section*/
- 
- .vid {
-     width: 100%;
-     height: 400px;
- }
- 
- .avatar {
-     width: 20px;
-     height: 25px;
-     background-color: green;
-     padding: 10px;
-     position: relative;
- }
- 
- .big_t {
-     position: absolute;
-     top: -20px;
-     font-size: xx-large;
-     color: white;
- }
->>>>>>> efcaba07be969047e94804b97609339feeced4e1
- 
- .video-title {
+ .feature-video-title{
      font-weight: 400;
+     font-size:15px;
+   
  }
- 
- .description-on-left {
-     position: relative;
- }
- 
- .grey-title {
-     font-size: 10px;
-     color: rgb(51, 51, 51);
-     position: absolute;
-     left: 45px;
-     top: -15px;
- }
- 
- .subscribe {
-     position: absolute;
-     left: 45px;
-     bottom: 0px;
-     background-color: red;
-     padding: 4px;
-     border: none;
-     border-radius: 2px;
- }
- 
- .number_of_subscribers {
-     position: absolute;
-     left: 126px;
-     bottom: 0px;
-     border: 1px solid rgb(204, 204, 204);
-     color: rgb(115, 115, 115);
-     padding: 1.2px;
-     border-radius: 2px;
- }
- 
- .views {
-     position: absolute;
-     right: 10px;
-     bottom: -9px;
-     border-bottom: 2px solid rgb(22, 122, 198);
-     width: 25%;
-     text-align: right;
- }
- 
- .social-buttons {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     position: relative;
-     padding-bottom: 10px;
- }
- 
- .button-style {
-     height: 15px;
-     font-size: 8px;
-     border: none;
-     color: #808080;
-     background-color: none;
- }
- 
- .share-button {
-     position: absolute;
-     left: 60px;
-     background-color: white;
- }
- 
- .more-button {
-     position: absolute;
-     left: 120px;
-     background-color: white;
- }
- 
- .add-button {
-     background-color: white;
- }
- 
- .fas {
-     background-color: #fff;
- }
- 
- .activity {
-     background-color: white;
-     padding: 5px;
-     margin-bottom: 15px;
-     margin-top: 10px
- }
- 
- .feature-video-title {
-     font-weight: 400;
-     font-size: 15px;
- }
- 
- .fa-thumbs-up {
-     position: absolute;
-     right: 120px;
- }
- 
- .like {
-     position: absolute;
-     right: 90px;
- }
- 
- .fa-thumbs-down {
-     position: absolute;
-     right: 30px;
- }
- 
- .dislike {
-     position: absolute;
-     right: 10px;
- }
- /*-----full description------*/
- 
- .full_description {
-     position: relative;
-     background-color: white;
-     padding: 20px;
- }
- 
- .full_title {
-     font-weight: 500;
- }
- 
- .text_description {
-     font-size: 14px;
- }
- 
- .showing {
-     text-decoration: none;
-     color: black;
-     font-size: 10px;
-     font-weight: 500;
-     display: block;
-     width: 100%;
-     text-align: center
- }
- 
- .full_title {
-     font-weight: 500;
- }
- 
- .text_description {
-     font-size: 14px;
- }
- /*-------Aside section-----*/
- 
+
+.fa-thumbs-up {
+    position: absolute;
+    right: 120px;
+}
+
+.like {
+    position: absolute;
+    right: 90px;
+}
+
+.fa-thumbs-down {
+    position: absolute;
+    right: 30px;
+}
+
+.dislike {
+    position: absolute;
+    right: 10px;
+}
+/*-----full description------*/
+
+.full_description {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+}
+
+.full_title {
+    font-weight: 500;
+}
+
+.text_description {
+    font-size: 14px;
+}
+
+.showing {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    text-align:center
+}
+
+.full_title {
+    font-weight: 500;
+}
+
+.text_description {
+    font-size: 14px;
+}
+/*-------Aside section-----*/
+
  .side_title {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     display: relative;
- }
- 
- .upnext {
-     font-weight: 600;
- }
- 
- .fa-toggle-on {
-     position: absolute;
-     right: 20px;
- }
- 
- .fa-info-circle {
-     position: absolute;
-     right: 50px;
- }
- 
- .autoplay {
-     position: absolute;
-     right: 80px;
-     color: #767676;
- }
- /*-----video-list----*/
- 
- aside {
-     background-color: white;
-     height: fit-content;
-     padding-bottom: 10px;
- }
- 
- .thumbnails {
-     width: 95%;
-     padding-bottom: 10px;
- }
- 
- .video-list {
-     display: grid;
-     grid-template-columns: 50% 50%;
- }
- 
- .right-aside {
-     position: relative;
- }
- 
- .video-title {
-     color: #333333;
-     font-size: 14px;
-     font-weight: 500;
-     position: absolute;
-     top: -18px;
- }
- 
- .second-title {
-     position: absolute;
-     top: -25px;
- }
- 
- .third-title {
-     position: absolute;
-     top: -26px;
- }
- 
- .forth-title {
-     position: absolute;
-     top: -26px;
- }
- 
- .fifth-title {
-     position: absolute;
-     top: -26px;
- }
- 
- .side_avatar,
- .aside_views {
-     color: rgb(118, 118, 118);
-     font-size: 12px;
-     position: absolute;
-     top: 2px;
- }
- 
- .second-avatar {
-     position: absolute;
-     top: 20px;
- }
- 
- .third-avatar {
-     position: absolute;
-     top: 35px;
- }
- 
- .fifth-avatar {
-     position: absolute;
-     top: 40px;
- }
- 
- .aside_views {
-     position: absolute;
-     top: 60px;
- }
- 
- .second-views {
-     position: absolute;
-     top: 65px;
- }
- 
- .third-views {
-     position: absolute;
-     top: 68px;
- }
- 
- .forth-views {
-     position: absolute;
-     top: 30px;
- }
- 
- .fifth-views {
-     position: absolute;
-     top: 70px;
- }
- 
- .more-link {
-     text-decoration: none;
-     color: black;
-     font-size: 10px;
-     font-weight: 500;
-     display: block;
-     width: 100%;
-     text-align: center;
- }
- 
- . {
-     /*kkkkg*/
- }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: relative;
+    
+   
+   }
+.upnext{
+   font-weight: 600;
+}
+.fa-toggle-on{
+   position: absolute;
+   right: 20px;
+}
+
+.fa-info-circle{
+   position: absolute;
+   right: 50px;
+   
+}
+
+.autoplay{
+   position: absolute;
+   right: 80px;
+   color: #767676;
+}
+
+/*-----video-list----*/
+
+aside{
+   background-color: white;
+   height: fit-content;
+   padding-bottom: 10px;
+
+}
+
+.thumbnails{
+   width: 95%;
+   padding-bottom: 10px;
+}
+
+.video-list{
+   display:grid;
+   grid-template-columns:50% 50%;
+} 
+
+
+.right-aside{
+   position: relative;
+}
+
+.video-title{
+   color: #333333;
+   font-size: 14px;
+   font-weight: 500;
+   position: absolute;
+   top: -18px;
+}
+.second-title{
+   position: absolute;
+   top: -25px;
+}
+.third-title{
+   position: absolute;
+   top:-26px;
+}
+.forth-title{
+   position: absolute;
+   top:-26px;
+}
+.fifth-title{
+   position: absolute;
+   top: -26px;
+}
+
+.side_avatar,
+.aside_views{
+   color: rgb(118, 118, 118);
+   font-size: 12px;
+   position: absolute;
+   top:2px;
+}
+
+.second-avatar{
+   position: absolute;
+   top:20px;
+}
+
+.third-avatar{
+   position: absolute;
+   top:35px;
+}
+
+.fifth-avatar{
+   position: absolute;
+   top:40px;
+}
+
+.aside_views{
+   position: absolute;
+   top:60px;
+}
+.second-views{
+   position: absolute;
+   top:65px;
+}
+.third-views{
+   position: absolute;
+   top: 68px;
+}
+.forth-views{
+   position: absolute;
+   top: 30px;
+}
+.fifth-views{
+   position: absolute;
+   top: 70px;
+}
+.more-link{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
