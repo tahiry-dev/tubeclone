@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/fddcccfd38.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>tubeclone</title>
+    <title>Local TubeClone</title>
 </head>
 
 <body>
     <!--header start-->
     <header>
         <nav class="flex-container">
-            <button class="collapse-menu" type="button"><i class="fas fa-bars"></i></button>
+            <!--<button class="collapse-menu" type="button">--><i class="fas fa-bars"></i><!--</button>-->
             <img class="logo" src="images/logo" alt="image of logo" width="60" height="23">
-            <form action="#">
-                <input class="myInput" type="text" id="search" placeholder="Search" size="53">
-                <button class="search-icon" type="submit"><i class="fas fa-search"></i></button>
-            </form>
-            <button class="upload" type="button"><i class="fas fa-upload"></i></button>
+            <div>
+                <form action="">
+                    <input class="myInput" type="text" id="search" placeholder="Search">
+                    <!--<button class="search-icon" type="submit">--><i class="fas fa-search"></i><!--</button>-->
+                </form>
+            </div>
+            <!--<button class="upload" type="button">--><i class="fas fa-upload"></i><!--</button>-->
             <button class="sign" type="submit">Sign in</button>
         </nav>
         <article>
@@ -40,12 +42,12 @@
     <!--main content-->
     <div class="container">
         <main>
-            <div>
+            <div class="video-container">
                 <iframe class="vid" src="https://www.youtube.com/embed/KG3phuIo_JU"></iframe>
             </div>
             <div class="activity">
                 <div class="description">
-                    <h3 class="video-title">Watch NBC News NOW Live - August 17</h3>
+                    <h3 class="feature-video-title">Watch NBC News NOW Live - August 17</h3>
                     <div class="description-on-left">
                         <div class="avatar">
                             <h2 class="big_t">T</h2>
@@ -91,94 +93,59 @@
                 <p><i class="fas fa-info-circle"></i></p>
                 <p><i class="fas fa-toggle-on"></i></p>
             </div>
-            <article class="aside_content">
+            <article class="video-list">
                 <img class="thumbnails" src="images/china_1.jpg" alt="one picture of china">
-                <div class="right-view">
-                    <h5 class="video-title ">China is beautiful</h5>
+                <div class="right-aside">
+                    <p class="video-title">China is beautiful</p>
                     <p class="side_avatar ">Amazing China. Amazing Scenery of China.</p>
                     <div class="aside_views">402,973 views</div>
                 </div>
             </article>
-            <!--<hr>-->
-            <article class="aside_content">
+            <hr>
+            <article class="video-list">
                 <img class="thumbnails" src="images/china_2.jpg" alt="other picture of china">
-                <div class="right-view">
-                    <h5 class="video-title">China views from the Mountain top</h5>
-                    <p class="side_avatar"> Amazing China from mountain view.</p>
-                    <p>3 455,987 views</p>
+                <div class="right-aside">
+                    <h5 class="video-title second-title">China views from the Mountain top</h5>
+                    <p class="side_avatar second-avatar">Amazing China from mountain view.</p>
+                    <div class="aside_views second-views">3 455,987 views</div>
                 </div>
+
             </article>
-            <article class="aside_content">
+            <article class="video-list">
                 <img class="thumbnails" src="images/filming_tools.jpg" alt="filming_tools">
-                <div class="right-view">
-                    <h5 class="video-title">Andrea Bocelli - live at Teatro del Silenzio 2020</h5>
-                    <p class="side_avatar">Andrea Bocelli</p>
-                    <div class="aside_views">4 430,876 views</div>
+                <div class="right-aside">
+                    <h5 class="video-title third-title">Andrea Bocelli - live at Teatro del Silenzio 2020</h5>
+                    <p class="side_avatar third-avatar">Andrea Bocelli</p>
+                    <div class="aside_views third-views">4 430,876 views</div>
                 </div>
+
             </article>
-            <article class="aside_content">
+            <article class="video-list">
                 <img class="thumbnails" src="images/south_africa_1.jpg" alt="one picture of south africa">
-                <div class="right-view">
-                    <h5 class="video-title">African Safari</h5>
-                    <p class="side_avatar">safaribookings</p>
-                    <div class="aside_views">2 113,769 views</div>
+                <div class="right-aside">
+                    <h5 class="video-title forth-title">African Safari</h5>
+                    <p class="side_avatar forth-avatar">safaribookings</p>
+                    <div class="aside_views forth-views">2 113,769 views</div>
                 </div>
+
             </article>
-            <article class="aside_content">
+            <article class="video-list">
                 <img class="thumbnails" src="images/south_Africa_2.jpg" alt="other picture of south africa">
-                <div class="right-view">
-                    <h5 class="video-title">Top 10 Reasons to Visit Madagascar | MojoTravels</h5>
-                    <p class="side_avatar">MojoTravels</p>
-                    <div class="aside_views">1 987,479 views</div>
+                <div class="right-aside">
+                    <h5 class="video-title fifth-title">Top 10 Reasons to Visit Madagascar | MojoTravels</h5>
+                    <p class="side_avatar fifth-avatar" >MojoTravels</p>
+                    <div class="aside_views fifth-views">1 987,479 views</div>
+
                 </div>
             </article>
+            <hr>
+            <a class="more-link" href="#">SHOW MORE</a>
+        </aside>
+    
     </div>
-    <hr>
-    <a class="showing" href="#">SHOW MORE</a>
-    </aside>
     <!--side section ends -->
     </div>
-    <!--footer starts here-->
-    <footer>
-        <div class="footer-nav">
-            <img src="images/logo" alt="youtube logo" width="100" height="30">
-            <button class="language"><i class="far fa-user"></i> Language English <i
-                    class="fas fa-caret-down"></i></button>
-            <button class="location"> Location: South Africa <i class="fas fa-caret-down"></i></button>
-            <button class="mode"> Restricted Mode: Off <i class="fas fa-caret-down"></i></button>
-            <button class="history"><i class="fas fa-hourglass-end"></i> History</button>
-            <button class="help"><i class="fas fa-question-circle"></i> Help</button>
-        </div>
-        <hr>
-        <div>
-            <nav class="bottom-nav">
-                <ul id="big-nav">
-                    <li>
-                        <a href="#"></a>About</li>
-                    <li>
-                        <a href="#"></a>Press</li>
-                    <li>
-                        <a href="#"></a>Copyright</li>
-                    <li>
-                        <a href="#"></a>Creators</li>
-                    <li>
-                        <a href="#"></a>Advertise</li>
-                    <li>
-                        <a href="#"></a>Developers</li>
-                </ul>
-                <ul id="small-nav">
-                    <li>
-                        <a href="#"></a>Terms</li>
-                    <li>
-                        <a href="#"></a>Privacy</li>
-                    <li>
-                        <a href="#"></a>Policy & Safety</li>
-                    <li>
-                        <a href="#"></a>Test new features</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
+    
 </body>
 
 </html>
