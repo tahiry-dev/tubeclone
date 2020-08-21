@@ -9,65 +9,67 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding-top: 10px;
-    height: 30px;
+    height: 40px;
     background-color: white;
-    /*position: relative;
-    
-    display: grid;
-    grid-template-columns: 10% 10% 60% 10% 10%;
-    */
+    position: relative;
+
 }
-
-/*
-
-.collapse-menu{
+.fa-bars{
    position: absolute;
    left:10px;
+   
 }
-*/
-
 
 
 .logo {
-    /*
-    position: absolute;
-    left: 60px;
-    bottom: 8px;
-    */
     width:60px;
-    height:23px;
+    height:15px;
+    margin-left:40px;
+
+}
+ 
+.myInput{
+    width:430px;
+}
+
+.fa-search{
+    border: 1px solid #808080;
+    background-color: #f8f8f8;
+    padding: 2px 12px 2px 12px;
+    position: relative;
+    top:1.5px;
 }
 
 /*
-
-.myInput{
-    width:420px;
-}
-
-
 .search-icon {
     position: absolute;
     left: 630px;
 }
 
+*/
 
-.upload {
-    position: absolute;
-    right: 100px;
+.fa-upload {
+    color: #808080;
+    
 }
+
 
 
 .sign {
+    /*
     position: absolute;
     right: 10px;
-    background-color: blue;
+    */
+    background-color:#167AC6;
     color: white;
-    border: solid 1px blue;
+    border: solid 1px #167AC6;
     border-radius: 2px;
+    margin-right:10px;
 }
 
-*/ 
+
 
 .mini-banner {
     display: flex;
