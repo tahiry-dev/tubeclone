@@ -27,8 +27,7 @@ we also used the youtube iframe to embedd the youtube video player.
 A browser that supports CSS, FLEX and Grid
 You can click on the link to view a live demo of the site.
 
-**Author1**
-[Tendai Github](https://github.com/tnyandoro)
+_[Tendai Github](https://github.com/tnyandoro)
 [Tendai Linkedin](https://www.linkedin.com/in/tendai-nyandoro-a8060826/)
 
 **Author2**
