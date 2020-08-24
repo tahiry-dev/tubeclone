@@ -29,15 +29,15 @@ You can click on the link to view a live demo of the site.
 
 **Tendai**
 
-[Githuh](https://github.com/tnyandoro)
+* [Githuh](https://github.com/tnyandoro)
 
-[Linkedin](https://www.linkedin.com/in/tendai-nyandoro-a8060826/)
+* [Linkedin](https://www.linkedin.com/in/tendai-nyandoro-a8060826/)
 
 **Tahiry**
 
-*[Github](https://github.com/tahiry-dev)
+* [Github](https://github.com/tahiry-dev)
 
-*[Linkedin](https://www.linkedin.com/in/tahiry-randriamiarintsoa-2276831b1/)
+* [Linkedin](https://www.linkedin.com/in/tahiry-randriamiarintsoa-2276831b1/)
 
 
 ## License
