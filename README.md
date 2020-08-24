@@ -29,7 +29,7 @@ You can click on the link to view a live demo of the site.
 
 **Tendai**
 
-* [Githuh](https://github.com/tnyandoro)
+* [Github](https://github.com/tnyandoro)
 
 * [Linkedin](https://www.linkedin.com/in/tendai-nyandoro-a8060826/)
 
