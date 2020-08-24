@@ -21,7 +21,7 @@ we also used the youtube iframe to embedd the youtube video player.
 
 -youtube iframe API
 
-Live Link https://rawcdn.githack.com/tahiry-dev/tubeclone/e8622d2fb2feedfa7f25d177144ae15d47d15fb5/index.html
+[Live Demo](https://rawcdn.githack.com/tahiry-dev/tubeclone/e8622d2fb2feedfa7f25d177144ae15d47d15fb5/index.html)
 
 ### Prerequisites
 A browser that supports CSS, FLEX and Grid
