@@ -15,12 +15,17 @@
         <nav class="flex-container">
             <i class="fas fa-bars"></i>
             <img class="logo" src="images/logo" alt="image of logo">
-            <form action="">
-                <input class="myInput" type="text" id="search" placeholder="Search"><i class="fas fa-search"></i>
+            <form action="" method="GET">
+                <input class="myInput" type="text" id="search" placeholder="Search">
+                <button class="search-button" type="submit"><i class="fa fa-search"></i></button>
             </form>
+            <div>
+                <i class="fa fa-video-camera"></i>
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-upload upload-icon"></i>
+                <button class="sign" type="submit">Sign in</button>
+            </div>
 
-            <i class="fas fa-upload"></i>
-            <button class="sign" type="submit">Sign in</button>
         </nav>
         <article>
             <div class="mini-banner">
@@ -41,23 +46,23 @@
     <div class="container">
         <main>
             <div class="video-container">
-                <iframe class="vid" src="https://www.youtube.com/embed/KG3phuIo_JU"></iframe>
+                <iframe class="vid" src="https://www.youtube.com/embed/8mceJBrgUkQ"></iframe>
             </div>
             <div class="activity">
                 <div class="description">
-                    <h3 class="feature-video-title">Watch NBC News NOW Live - August 17</h3>
+                    <h3 class="feature-video-title">From Microverse to Microsoft! An interview by Ariel Camus with Kevin Mwangi</h3>
                     <div class="description-on-left">
                         <div class="avatar">
                             <h2 class="big_t">T</h2>
                         </div>
                         <div class="avatar-name">
-                            <h4 class="avatar-title">The Odin Project</h4>
+                            <h4 class="grey-title">The Odin Project</h4>
                         </div>
                         <div>
                             <button class="subscribe" type="button"><i class="fab fa-youtube"></i>Subscribe</button>
                             <div class="number_of_subscribers">987</div>
                         </div>
-                        <div class="views">32,803 </div>
+                        <div class="views">32,803 Views</div>
                     </div>
                     <hr>
                 </div>
@@ -74,7 +79,7 @@
             </div>
 
             <div class="full_description">
-                <h3 class="description_title">Published on Feb 27, 2014</h3>
+                <h3 class="full_title">Published on Feb 27, 2014</h3>
                 <p class="text_description">How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside
                     of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online
                     curriculum for learning web development with Ruby on Rails. You can find more information about that project at
@@ -142,7 +147,7 @@
 
     </div>
     <!--side section ends -->
-
+    </div>
 
 </body>
 
