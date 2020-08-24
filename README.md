@@ -5,7 +5,7 @@
 
 Our first Project which is to clone Youtube website 
 
-#Youtube's video player page
+# Youtube's video player page
 The goal of this project is to focus on embedding the youtube video player into the page so it can actually play and show little thumbnail images along the right side.
 
 ![screenshot](https://user-images.githubusercontent.com/30318155/90988765-94f20c00-e595-11ea-9f83-dccee4ec7011.png)
