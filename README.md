@@ -28,11 +28,12 @@ A browser that supports CSS, FLEX and Grid
 You can click on the link to view a live demo of the site.
 
 **Author1**
-https://github.com/tnyandoro
-https://www.linkedin.com/in/tendai-nyandoro-a8060826/
+[Tendai Github](https://github.com/tnyandoro)
+[Tendai Linkedin](https://www.linkedin.com/in/tendai-nyandoro-a8060826/)
 
 **Author2**
-https://github.com/tahiry-dev
+[Tahiry Github](https://github.com/tahiry-dev)
+[Tahiry Linkedin](https://www.linkedin.com/in/tahiry-randriamiarintsoa-2276831b1/)
 
 
 ## License
