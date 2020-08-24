@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/fddcccfd38.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fddcccfd38.js" crossorigin="anonymous"></script>   
     <link rel="stylesheet" href="style.css">
     <title>Local TubeClone</title>
 </head>
@@ -12,30 +12,30 @@
 <body>
     <!--header start-->
     <header>
-        <nav class="flex-container">
-            <i class="fas fa-bars"></i>
+        <nav class="flex-container parent">
+            <i class="fas fa-bars position"></i>
             <img class="logo" src="images/logo" alt="image of logo">
             <form action="" method="GET">
                 <input class="myInput" type="text" id="search" placeholder="Search">
-                <button class="search-button" type="submit"><i class="fa fa-search"></i></button>
+                <button class="search-button parent" type="submit"><i class="fa fa-search parent"></i></button>
             </form>
             <div>
-                <i class="fa fa-video-camera"></i>
-                <i class="fas fa-bell"></i>
-                <i class="fas fa-upload upload-icon"></i>
-                <button class="sign" type="submit">Sign in</button>
+                <i class="fa fa-video-camera common-color"></i>
+                <i class="fas fa-bell common-color"></i>
+                <i class="fas fa-upload upload-icon common-color"></i>
+                <button class="sign background border" type="submit">Sign in</button>
             </div>
 
         </nav>
         <article>
-            <div class="mini-banner">
-                <p><i class="far fa-user"></i></p>
-                <h6>Choose your Language.</h6>
-                <a href="#" class="learn_more">X</a>
+            <div class="mini-banner parent background">
+                <p><i class="far fa-user position"></i></p>
+                <h6 class="position">Choose your Language.</h6>
+                <a href="#" class="learn_more position">X</a>
             </div>
-            <div class="language">
-                <p class="smaller smaller-left">You are viewing Youtube in <b>English (US)</b>. You can <a href="#">Change this preference
-                        below.</a></p> <a class="smaller smaller-right" href="#">Learn More</a>
+            <div class="language parent border">
+                <p class="smaller smaller-left position">You are viewing Youtube in <b>English (US)</b>. You can <a href="#">Change this preference
+                        below.</a></p> <a class="smaller smaller-right position" href="#">Learn More</a>
 
             </div>
         </article>
@@ -48,37 +48,37 @@
             <div class="video-container">
                 <iframe class="vid" src="https://www.youtube.com/embed/8mceJBrgUkQ"></iframe>
             </div>
-            <div class="activity">
+            <div class="activity second-background"> 
                 <div class="description">
                     <h3 class="feature-video-title">From Microverse to Microsoft! An interview by Ariel Camus with Kevin Mwangi</h3>
-                    <div class="description-on-left">
-                        <div class="avatar">
-                            <h2 class="big_t">T</h2>
+                    <div class="description-on-left parent">
+                        <div class="avatar parent">
+                            <img class="microverse position" src="images/microverse.jpg" alt="micorverse-logo" />
                         </div>
                         <div class="avatar-name">
-                            <h4 class="grey-title">The Odin Project</h4>
+                            <h4 class="grey-title position">Microverse</h4>
                         </div>
                         <div>
-                            <button class="subscribe" type="button"><i class="fab fa-youtube"></i>Subscribe</button>
-                            <div class="number_of_subscribers">987</div>
+                            <button class="subscribe position" type="button"><i class="fab fa-youtube"></i>Subscribe</button>
+                            <div class="number_of_subscribers position">987</div>
                         </div>
-                        <div class="views">32,803 Views</div>
+                        <div class="views position">32,803 Views</div>
                     </div>
                     <hr>
                 </div>
-                <div class="social-buttons">
-                    <button class="add-button button-style" type="button"><i class="fas fa-plus"></i> Add to</button>
-                    <button class="share-button button-style" type="button"><i class="fas fa-share"></i> Share</button>
-                    <button class="more-button button-style" type="button"><i class="fas fa-ellipsis-h"></i>
+                <div class="social-buttons parent">
+                    <button class="common-color add-button button-style second-background" type="button"><i class="fas fa-plus"></i> Add to</button>
+                    <button class="common-color share-button button-style position second-background" type="button"><i class="fas fa-share"></i> Share</button>
+                    <button class="common-color more-button button-style position second-background" type="button"><i class="fas fa-ellipsis-h"></i>
                         More</button>
-                    <i class="fas fa-thumbs-up"></i>
-                    <div class="like">359</div>
-                    <i class="fas fa-thumbs-down"></i>
-                    <div class="dislike">14</div>
+                    <i class="fas fa-thumbs-up position"></i>
+                    <div class="like position">359</div>
+                    <i class="fas fa-thumbs-down position"></i>
+                    <div class="dislike position">14</div>
                 </div>
             </div>
 
-            <div class="full_description">
+            <div class="full_description parent second-background ">
                 <h3 class="full_title">Published on Feb 27, 2014</h3>
                 <p class="text_description">How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside
                     of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online
@@ -90,54 +90,54 @@
         </main>
         <!--side section-->
         <aside>
-            <div class="side_title">
+            <div class="side_title parent">
                 <p class="upnext">Up next</p>
-                <p class="autoplay">Autoplay</p>
-                <p><i class="fas fa-info-circle"></i></p>
-                <p><i class="fas fa-toggle-on"></i></p>
+                <p class="autoplay position">Autoplay</p>
+                <p><i class="fas fa-info-circle position"></i></p>
+                <p><i class="fas fa-toggle-on position"></i></p>
             </div>
             <article class="video-list">
                 <img class="thumbnails" src="images/china_1.jpg" alt="one picture of china">
-                <div class="right-aside">
-                    <p class="video-title">China is beautiful</p>
-                    <p class="side_avatar ">Amazing China. Amazing Scenery of China.</p>
-                    <div class="aside_views">402,973 views</div>
+                <div class="right-aside parent">
+                    <p class="video-title position">China is beautiful</p>
+                    <p class="side_avatar position ">Amazing China. Amazing Scenery of China.</p>
+                    <div class="aside_views position">402,973 views</div>
                 </div>
             </article>
             <hr>
             <article class="video-list">
                 <img class="thumbnails" src="images/china_2.jpg" alt="other picture of china">
-                <div class="right-aside">
-                    <h5 class="video-title second-title">China views from the Mountain top</h5>
-                    <p class="side_avatar second-avatar">Amazing China from mountain view.</p>
-                    <div class="aside_views second-views">3 455,987 views</div>
+                <div class="right-aside parent">
+                    <h5 class="video-title second-title position">China views from the Mountain top</h5>
+                    <p class="side_avatar second-avatar position">Amazing China from mountain view.</p>
+                    <div class="aside_views second-views position">3 455,987 views</div>
                 </div>
 
             </article>
             <article class="video-list">
                 <img class="thumbnails" src="images/filming_tools.jpg" alt="filming_tools">
-                <div class="right-aside">
-                    <h5 class="video-title third-title">Andrea Bocelli - live at Teatro del Silenzio 2020</h5>
-                    <p class="side_avatar third-avatar">Andrea Bocelli</p>
-                    <div class="aside_views third-views">4 430,876 views</div>
+                <div class="right-aside parent">
+                    <h5 class="video-title third-title position">Andrea Bocelli - live at Teatro del Silenzio 2020</h5>
+                    <p class="side_avatar third-avatar position">Andrea Bocelli</p>
+                    <div class="aside_views third-views position">4 430,876 views</div>
                 </div>
 
             </article>
             <article class="video-list">
                 <img class="thumbnails" src="images/south_africa_1.jpg" alt="one picture of south africa">
-                <div class="right-aside">
-                    <h5 class="video-title forth-title">African Safari</h5>
-                    <p class="side_avatar forth-avatar">safaribookings</p>
-                    <div class="aside_views forth-views">2 113,769 views</div>
+                <div class="right-aside parent">
+                    <h5 class="video-title forth-title position">African Safari</h5>
+                    <p class="side_avatar forth-avatar position">safaribookings</p>
+                    <div class="aside_views forth-views position">2 113,769 views</div>
                 </div>
 
             </article>
             <article class="video-list">
                 <img class="thumbnails" src="images/south_Africa_2.jpg" alt="other picture of south africa">
-                <div class="right-aside">
-                    <h5 class="video-title fifth-title">Top 10 Reasons to Visit Madagascar | MojoTravels</h5>
-                    <p class="side_avatar fifth-avatar">MojoTravels</p>
-                    <div class="aside_views fifth-views">1 987,479 views</div>
+                <div class="right-aside parent">
+                    <h5 class="video-title fifth-title position">Top 10 Reasons to Visit Madagascar | MojoTravels</h5>
+                    <p class="side_avatar fifth-avatar position">MojoTravels</p>
+                    <div class="aside_views fifth-views position">1 987,479 views</div>
 
                 </div>
             </article>
