@@ -1,395 +1,386 @@
 body {
-  background-color: #f9f9f9;
-  font-family: Roboto, Arial, sans-serif;
-  box-sizing: border-box;
+    background-color: #f9f9f9;
+    font-family: Roboto, Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 .flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 10px;
-  height: 40px;
-  background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    height: 40px;
+    background-color: white;
 }
+
 
 /*----------common rules-------------*/
 
 .parent {
-  position: relative;
+    position: relative;
 }
 
 .position {
-  position: absolute;
+    position: absolute;
 }
 
 .common-color {
-  color: #808080;
+    color: #808080;
 }
 
 .background {
-  background-color: #167ac6;
+    background-color: #167ac6;
 }
 
 .border {
-  border: solid 1px #167ac6;
+    border: solid 1px #167ac6;
 }
 
 .second-background {
-  background-color: white;
+    background-color: white;
 }
 
+
 /*----------icon-----------*/
+
 .fa-bars {
-  left: 10px;
+    left: 10px;
 }
 
 .logo {
-  width: 60px;
-  height: 15px;
-  margin-left: 40px;
+    width: 60px;
+    height: 15px;
+    margin-left: 40px;
 }
 
 .myInput {
-  width: 430px;
+    width: 430px;
 }
 
 .fa-search {
-  top: 1.5px;
+    top: 1.5px;
 }
 
 .search-button {
-  right: 5px;
+    right: 5px;
 }
 
 .fa-video-camera {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 
 .fa-bell {
-  margin-right: 15px;
+    margin-right: 15px;
 }
 
 .sign {
-  color: white;
-  border-radius: 2px;
-  margin-right: 10px;
-  margin-left: 15px;
+    color: white;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-left: 15px;
 }
 
 .mini-banner {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  color: white;
-  margin-top: 10px;
-  height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    margin-top: 10px;
+    height: 30px;
 }
 
 .fa-user {
-  bottom: 7px;
-  left: 10px;
+    bottom: 7px;
+    left: 10px;
 }
 
 h6 {
-  left: 40px;
-  top: -15px;
+    left: 40px;
+    top: -15px;
 }
 
 .learn_more {
-  right: 30px;
-  bottom: 5px;
-  color: white;
-  text-decoration: none;
+    right: 30px;
+    bottom: 5px;
+    color: white;
+    text-decoration: none;
 }
 
 main {
-  padding-right: 15px;
+    padding-right: 15px;
 }
 
 .language {
-  height: 30px;
-  margin-bottom: 20px;
-  background-color: #fff;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #fff;
 }
 
 .smaller {
-  font-size: 10px;
+    font-size: 10px;
 }
 
 .smaller-left {
-  left: 10px;
+    left: 10px;
 }
 
 .smaller-right {
-  right: 10px;
-  top: 7px;
+    right: 10px;
+    top: 7px;
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 70% 30%;
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
+
 
 /* video section*/
 
 .vid {
-  width: 100%;
-  height: 400px;
+    width: 100%;
+    height: 400px;
 }
+
 .microverse {
-  width: 38px;
-  bottom: 0px;
+    width: 38px;
+    bottom: 0px;
 }
-
-/*
-.avatar {
-  
-  width: 20px;
-  height: 25px;
-  background-color: green;
-  
-}
-
-
-.big_t {
-  top: -20px;
-  font-size: xx-large;
-  color: white;
-}
-*/
 
 .video-title {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .grey-title {
-  font-size: 10px;
-  color: rgb(51, 51, 51);
-  left: 45px;
-  bottom: 15px;
+    font-size: 10px;
+    color: rgb(51, 51, 51);
+    left: 45px;
+    bottom: 15px;
 }
 
 .subscribe {
-  left: 45px;
-  bottom: 0px;
-  background-color: red;
-  padding: 4px;
-  border: none;
-  border-radius: 2px;
+    left: 45px;
+    bottom: 0px;
+    background-color: red;
+    padding: 4px;
+    border: none;
+    border-radius: 2px;
 }
 
 .number_of_subscribers {
-  left: 126px;
-  bottom: 0px;
-  border: 1px solid rgb(204, 204, 204);
-  color: rgb(115, 115, 115);
-  padding: 1.2px;
-  border-radius: 2px;
+    left: 126px;
+    bottom: 0px;
+    border: 1px solid rgb(204, 204, 204);
+    color: rgb(115, 115, 115);
+    padding: 1.2px;
+    border-radius: 2px;
 }
 
 .views {
-  right: 10px;
-  bottom: 0px;
-  border-bottom: 2px solid rgb(22, 122, 198);
-  width: 25%;
-  text-align: right;
+    right: 10px;
+    bottom: 0px;
+    border-bottom: 2px solid rgb(22, 122, 198);
+    width: 25%;
+    text-align: right;
 }
 
 .social-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 .button-style {
-  height: 15px;
-  font-size: 8px;
-  border: none;
-  background-color: none;
+    height: 15px;
+    font-size: 8px;
+    border: none;
+    background-color: none;
 }
 
 .share-button {
-  left: 60px;
+    left: 60px;
 }
 
 .more-button {
-  left: 120px;
+    left: 120px;
 }
 
 .activity {
-  padding: 5px;
-  margin-bottom: 15px;
-  margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .feature-video-title {
-  font-weight: 400;
-  font-size: 15px;
-  padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 40px;
 }
 
 .fa-thumbs-up {
-  right: 120px;
+    right: 120px;
 }
 
 .like {
-  right: 90px;
+    right: 90px;
 }
 
 .fa-thumbs-down {
-  right: 30px;
+    right: 30px;
 }
 
 .dislike {
-  right: 10px;
+    right: 10px;
 }
+
 
 /*-----full description------*/
 
 .full_description {
-  padding: 5px;
+    padding: 5px;
 }
 
 .full_title {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .text_description {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .showing {
-  text-decoration: none;
-  color: black;
-  font-size: 10px;
-  font-weight: 500;
-  display: block;
-  width: 100%;
-  text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 
 .full_title {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .text_description {
-  font-size: 14px;
+    font-size: 14px;
 }
+
 
 /*-------Aside section-----*/
 
 .side_title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .upnext {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .fa-toggle-on {
-  right: 20px;
+    right: 20px;
 }
 
 .fa-info-circle {
-  right: 50px;
+    right: 50px;
 }
 
 .autoplay {
-  right: 80px;
-  color: #767676;
+    right: 80px;
+    color: #767676;
 }
+
 
 /*-----video-list----*/
 
 aside {
-  background-color: white;
-  height: fit-content;
-  padding-bottom: 10px;
+    background-color: white;
+    height: fit-content;
+    padding-bottom: 10px;
 }
 
 .thumbnails {
-  width: 95%;
-  padding-bottom: 10px;
+    width: 95%;
+    padding-bottom: 10px;
 }
 
 .video-list {
-  display: grid;
-  grid-template-columns: 50% 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .video-title {
-  color: #333333;
-  font-size: 14px;
-  font-weight: 500;
-  top: -18px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    top: -18px;
 }
 
 .second-title {
-  top: -25px;
+    top: -25px;
 }
 
 .third-title {
-  top: -26px;
+    top: -26px;
 }
 
 .forth-title {
-  top: -26px;
+    top: -26px;
 }
 
 .fifth-title {
-  top: -26px;
+    top: -26px;
 }
 
 .side_avatar,
 .aside_views {
-  color: rgb(118, 118, 118);
-  font-size: 12px;
-  top: 2px;
+    color: rgb(118, 118, 118);
+    font-size: 12px;
+    top: 2px;
 }
 
 .second-avatar {
-  top: 20px;
+    top: 20px;
 }
 
 .third-avatar {
-  top: 35px;
+    top: 35px;
 }
 
 .fifth-avatar {
-  top: 40px;
+    top: 40px;
 }
 
 .aside_views {
-  top: 60px;
+    top: 60px;
 }
 
 .second-views {
-  top: 65px;
+    top: 65px;
 }
 
 .third-views {
-  top: 68px;
+    top: 68px;
 }
 
 .forth-views {
-  top: 30px;
+    top: 30px;
 }
 
 .fifth-views {
-  top: 70px;
+    top: 70px;
 }
 
 .more-link {
-  text-decoration: none;
-  color: black;
-  font-size: 10px;
-  font-weight: 500;
-  display: block;
-  width: 100%;
-  text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
